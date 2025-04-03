@@ -1,44 +1,18 @@
-# Demo 
-- [Demo Video](https://www.youtube.com/watch?v=uXKZ3sGw7oE)
-- [Release APK File](https://secufiles.com/aYb3/app-release.apk)
-# React Native Instagram Clone
+# <img src="https://twemoji.maxcdn.com/2/72x72/1f4f8.png" width="25"/> Instagram Clone
 
-## Don't forget give me a star if you like it 😅😅 😊😊
+A **fully functional** Instagram-like mobile application built using **React Native**.
 
-The 2nd project what I did with React Native.
+## 🚀 Features
+- ✅ **User authentication** (Signup/Login)
+- ✅ **Post creation and deletion**
+- ✅ **Like and comment functionality**
+- ✅ **User profiles** with posts & followers**
+- ✅ **Real-time updates**
+- ✅ **Image upload**
+- ✅ **Dark mode support**
 
-- React Native (v0.62)
-- Firebase
-- Typescript
-- React-native-navigation v5
-- Redux / Redux-thunk
-## Installation
-
-Use the package manager [YARN] to install [React Native Instagram Clone].\
-First, Install API image classification: [Here](https://github.com/iamvucms/ImageClassifyAPI/blob/master/README.md#installation)\
-Edit src/constant/index.ts
-```javascript
-export const CLASSIFY_API = 'http://YOUR_PRIVATE_IP:YOUR_PORT/classify'
-```
-```bash
-git clone https://github.com/iamvucms/react-native-instagram-clone.git
-cd react-native-instagram-clone
-yarn
-cd ios && pod install
-```
-
-
-## Usage
-
-```bash
-npx react-native run-ios
-
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## 🛠 Tech Stack
+- 🏗 **React Native**
+- 🔥 **Firebase** (Auth, Firestore, Storage)
+- 🎯 **Redux** for state management
+- 🔀 **React Navigation**
